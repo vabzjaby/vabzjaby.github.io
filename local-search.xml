@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>Termux都有哪些可玩的地方</title>
+    <link href="/2021/10/06/tgp/"/>
+    <url>/2021/10/06/tgp/</url>
+    
+    <content type="html"><![CDATA[<p>今天介绍一些Github上”功能性”很强的项目，</p><p>同时，这些项目共同的特点就是–</p><ul><li><p>都可以在命令行使用;</p></li><li><p>在Termux上使用甚至比在电脑上使用方便！</p></li></ul><h2 id="命令行网易云"><a href="#命令行网易云" class="headerlink" title="命令行网易云"></a>命令行网易云</h2><p><img src="https://static01.imgkr.com/temp/797ddfc99fdf47ab81daf17aebe9c969.jpg" alt="非常好操作，而且很简洁！"></img></p><p>仓库地址:<a href="https://github.com/darknessomi/musicbox">https://github.com/darknessomi/musicbox</a></p><p>安装方法:</p><figure class="highlight shell"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs shell">pkg install python //安装python<br><br>pkg install mpg123 //安装播放器<br><br>curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python - //安装poetry<br><br>git clone https://github.com/darknessomi/musicbox.git &amp;&amp; cd musicbox //克隆分支<br><br>poetry build &amp;&amp; poetry install //安装主程序<br><br>musicbox //运行！<br></code></pre></div></td></tr></table></figure><p>按理说这样是直接可以安装成功的，</p><p>官方给的方法里面跳过了安装python和poetry(python包管理器)</p><p>失败了的话私聊我！</p><p>简单使用方法:</p><p><code>j</code>和<code>k</code>是上一条和下一条(建议在英文输入模式下)</p><p><code>空格</code>是暂停或播放。</p><h2 id="命令行翻译"><a href="#命令行翻译" class="headerlink" title="命令行翻译"></a>命令行翻译</h2><p>一共有两个:</p><p><img src="https://static01.imgkr.com/temp/7c5e7bdf358644c593e39bd96b400e8f.jpg" alt="非常方便啊 中英互译"></img></p><p>仓库地址:<a href="https://github.com/FeeiCN/dict">https://github.com/FeeiCN/dict</a></p><p>安装方法:</p><figure class="highlight shell"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs shell">pip install dict-cli<br></code></pre></div></td></tr></table></figure><p>使用方法:</p><ul><li><p>dict 中文(翻译成英文)</p></li><li><p>dict english(翻译成中文)</p></li></ul><hr><p><img src="https://static01.imgkr.com/temp/e95144ad1e3344f48ebad71f0fcae374.jpg" alt="这个更简洁，而且是有道翻译"></img></p><p>仓库地址:<a href="https://github.com/hewentaowx/yd_translate">https://github.com/hewentaowx/yd_translate</a></p><p>安装方法:</p><figure class="highlight shell"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs shell">npm install -g yd_translate<br></code></pre></div></td></tr></table></figure><p>使用方法:</p><ul><li><p>yd 中文(翻译成英文)</p></li><li><p>yd 英文(翻译成中文)</p></li></ul><h2 id="YouTube命令行解析"><a href="#YouTube命令行解析" class="headerlink" title="YouTube命令行解析"></a>YouTube命令行解析</h2><p><img src="https://static01.imgkr.com/temp/dc53a36a4632425d9e17281f3966f0cc.jpg" alt="直接返回了直链"></img></p><p>没有仓库！</p><p>安装方法:</p><figure class="highlight shell"><table><tr><td class="gutter hljs"><div class="hljs code-wrapper"><pre><span class="line">1</span><br></pre></div></td><td class="code"><div class="hljs code-wrapper"><pre><code class="hljs shell">pkg install youtubedr<br></code></pre></div></td></tr></table></figure><p>使用方法:</p><ul><li>youtubedr url 视频链接(解析后返回)</li></ul><HR style="border:3 double #987cb9" width="30%" color=#987cb9 SIZE=3><p>我是听话的便当，</p><p>bye~</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Termux</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>如何在手机端搭建并部署Hexo</title>
     <link href="/2021/10/05/pwh/"/>
     <url>/2021/10/05/pwh/</url>
